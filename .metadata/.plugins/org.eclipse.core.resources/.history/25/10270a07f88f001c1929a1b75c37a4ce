@@ -1,0 +1,17 @@
+package loteExercicios4;
+
+import javax.swing.JOptionPane;
+
+public class exercicio4 {
+	public static void main (String args[]) {
+		double celsius = 0;
+		double fahrenheit = 0;
+		double celsius = Double.parseDouble(JOptionPane.showInputDialog(null,"insira o C°"));
+		double fahrenheit = (9*celsius + 160)/5;
+		System.out.print("A medida convertida e":+fahrenheit);
+		
+		
+		
+	}
+
+}
